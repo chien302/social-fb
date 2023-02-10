@@ -1,0 +1,5 @@
+.left-bar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 130px;
+}
