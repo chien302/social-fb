@@ -203,13 +203,11 @@ const Update = () => {
           </tr>
           <tr className="flex flex-col ">
             <td>
-              <span className="  text-[18px]">chien</span>
+              <span className="  text-[18px]">{currentUser.username}</span>
             </td>
             <td>
               {" "}
-              <span className="  text-[18px]">
-                chienvuong302@gmail.com
-              </span>{" "}
+              <span className="  text-[18px]">{currentUser.email}</span>{" "}
             </td>
             <td>
               {" "}
